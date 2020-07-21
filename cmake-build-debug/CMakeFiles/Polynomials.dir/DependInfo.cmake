@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/John/Desktop/CLionProjects/Polynomials/main.cpp" "/cygdrive/c/Users/John/Desktop/CLionProjects/Polynomials/cmake-build-debug/CMakeFiles/Polynomials.dir/main.cpp.o"
+  "/cygdrive/c/Users/John/Desktop/CLionProjects/Polynomials/polynomials.cpp" "/cygdrive/c/Users/John/Desktop/CLionProjects/Polynomials/cmake-build-debug/CMakeFiles/Polynomials.dir/polynomials.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

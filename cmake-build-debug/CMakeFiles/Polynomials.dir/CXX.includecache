@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/John/Desktop/CLionProjects/Polynomials/polynomials.cpp
+polynomials.h
+/cygdrive/c/Users/John/Desktop/CLionProjects/Polynomials/polynomials.h
+
+/cygdrive/c/Users/John/Desktop/CLionProjects/Polynomials/polynomials.h
+iostream
+-
+string
+-
+

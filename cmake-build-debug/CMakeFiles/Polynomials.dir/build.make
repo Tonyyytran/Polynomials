@@ -57,27 +57,27 @@ include CMakeFiles/Polynomials.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Polynomials.dir/flags.make
 
-CMakeFiles/Polynomials.dir/main.cpp.o: CMakeFiles/Polynomials.dir/flags.make
-CMakeFiles/Polynomials.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/John/Desktop/CLionProjects/Polynomials/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Polynomials.dir/main.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Polynomials.dir/main.cpp.o -c /cygdrive/c/Users/John/Desktop/CLionProjects/Polynomials/main.cpp
+CMakeFiles/Polynomials.dir/polynomials.cpp.o: CMakeFiles/Polynomials.dir/flags.make
+CMakeFiles/Polynomials.dir/polynomials.cpp.o: ../polynomials.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/John/Desktop/CLionProjects/Polynomials/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Polynomials.dir/polynomials.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Polynomials.dir/polynomials.cpp.o -c /cygdrive/c/Users/John/Desktop/CLionProjects/Polynomials/polynomials.cpp
 
-CMakeFiles/Polynomials.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Polynomials.dir/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/John/Desktop/CLionProjects/Polynomials/main.cpp > CMakeFiles/Polynomials.dir/main.cpp.i
+CMakeFiles/Polynomials.dir/polynomials.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Polynomials.dir/polynomials.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/John/Desktop/CLionProjects/Polynomials/polynomials.cpp > CMakeFiles/Polynomials.dir/polynomials.cpp.i
 
-CMakeFiles/Polynomials.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Polynomials.dir/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/John/Desktop/CLionProjects/Polynomials/main.cpp -o CMakeFiles/Polynomials.dir/main.cpp.s
+CMakeFiles/Polynomials.dir/polynomials.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Polynomials.dir/polynomials.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/John/Desktop/CLionProjects/Polynomials/polynomials.cpp -o CMakeFiles/Polynomials.dir/polynomials.cpp.s
 
 # Object files for target Polynomials
 Polynomials_OBJECTS = \
-"CMakeFiles/Polynomials.dir/main.cpp.o"
+"CMakeFiles/Polynomials.dir/polynomials.cpp.o"
 
 # External object files for target Polynomials
 Polynomials_EXTERNAL_OBJECTS =
 
-Polynomials.exe: CMakeFiles/Polynomials.dir/main.cpp.o
+Polynomials.exe: CMakeFiles/Polynomials.dir/polynomials.cpp.o
 Polynomials.exe: CMakeFiles/Polynomials.dir/build.make
 Polynomials.exe: CMakeFiles/Polynomials.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/John/Desktop/CLionProjects/Polynomials/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Polynomials.exe"
